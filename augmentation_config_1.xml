@@ -1,0 +1,68 @@
+<augmentations>
+    <augmentation name="rotation">
+        <param>75</param>
+    </augmentation>
+    <augmentation name="brightness">
+        <param>12</param>
+    </augmentation>
+    <augmentation name="contrast">
+        <param>0.5</param>
+    </augmentation>
+    <augmentation name="gamma correction">
+        <param>0.5</param>
+    </augmentation>
+    <augmentation name="histogram equalization">
+        <param>0</param>
+    </augmentation>
+    <augmentation name="flip">
+        <param>2</param>
+    </augmentation>
+    <augmentation name="scale">
+        <param>1.5</param>
+    </augmentation>
+    <augmentation name="color distortion">
+        <param>1.0</param>
+        <param>2.0</param>
+        <param>3.0</param>
+    </augmentation>
+    <augmentation name="gaussian noise addition">
+        <param>0</param>
+        <param>25.0</param>
+    </augmentation>
+    <augmentation name="logarithmic point transformation">
+        <param>0</param>
+    </augmentation>
+    <augmentation name="box filter">
+        <param>7</param>
+    </augmentation>
+    <augmentation name="gaussian filter">
+        <param>7</param>
+        <param>0</param>
+    </augmentation>
+    <augmentation name="bilateral filter">
+        <param>15</param>
+        <param>75</param>
+        <param>75</param>
+    </augmentation>
+    <augmentation name="median filter">
+        <param>3</param>
+    </augmentation>
+    <augmentation name="high-pass filter">
+        <param>11</param>
+        <param>3</param>
+    </augmentation>
+    <augmentation name="grayscale">
+        <param>0</param>
+    </augmentation>
+    <augmentation name="binary conversion">
+        <param>200</param>
+    </augmentation>
+    <augmentation name="translate">
+        <param>35</param>
+        <param>35</param>
+    </augmentation>
+    <augmentation name="shear">
+        <param>0.5</param>
+        <param>0.7</param>
+    </augmentation>
+</augmentations>
